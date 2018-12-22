@@ -23,7 +23,7 @@ public class MagentoTest {
 	@Test
 	public void Test() throws Exception
 	{
-		String url="http://www.google.com";
+		String url="http://www.facebook.com";
 		driver.get(url);
 		
 		driver.findElement(By.id("email")).sendKeys("utsavi443@gmail.com");
